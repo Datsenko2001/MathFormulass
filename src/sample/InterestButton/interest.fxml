@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="487.0" prefWidth="591.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.InterestButton.ControllerInterest">
+   <children>
+      <ImageView fitHeight="625.0" fitWidth="607.0" layoutX="-8.0" layoutY="-74.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/backround.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="223.0" layoutY="34.0" text="Відсотки" textFill="WHITE">
+         <font>
+            <Font name="Century" size="34.0" />
+         </font>
+      </Label>
+      <Label fx:id="lab2" layoutX="95.0" layoutY="94.0" text="Знаходження відсотка від числа" textFill="WHITE">
+         <font>
+            <Font name="Century" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="lab3" contentDisplay="TOP" layoutX="7.0" layoutY="182.0" prefHeight="95.0" prefWidth="582.0" text="Знаходження числа за значенням його відсотка" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Century" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="a11" layoutX="227.0" layoutY="150.0" prefHeight="34.0" prefWidth="43.0" />
+      <Button fx:id="otvet1" layoutX="309.0" layoutY="152.0" mnemonicParsing="false" opacity="0.69" text="=">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <TextField fx:id="result" layoutX="350.0" layoutY="150.0" prefHeight="34.0" prefWidth="60.0" />
+      <Label layoutX="278.0" layoutY="153.0" text="\%" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="lab31" alignment="BASELINE_RIGHT" contentDisplay="TOP" layoutX="23.0" layoutY="277.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="166.0" prefWidth="558.0" text="Перший внесок за телевізор, що куплено у кредит, дорівнює         %. За куплений у кредит телевізор заплатили перший внесок у розмірі              грн. Скільки коштує телевізор?" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Century" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="258.0" layoutY="246.0" prefHeight="34.0" prefWidth="76.0" text="Задача" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="a22" layoutX="236.0" layoutY="313.0" prefHeight="31.0" prefWidth="43.0" />
+      <TextField fx:id="b22" layoutX="120.0" layoutY="379.0" prefHeight="31.0" prefWidth="82.0" />
+      <Button fx:id="otvet2" layoutX="205.0" layoutY="438.0" mnemonicParsing="false" opacity="0.69" prefHeight="34.0" prefWidth="109.0" text="Відповідь:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <TextField fx:id="result2" layoutX="326.0" layoutY="438.0" prefHeight="34.0" prefWidth="60.0" />
+      <Button fx:id="information" layoutX="501.0" layoutY="21.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="66.0" style="-fx-background-color: #dba748;" text="Теорія" textFill="#ffe8bd" />
+   </children>
+</AnchorPane>
